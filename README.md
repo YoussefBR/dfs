@@ -1,19 +1,3 @@
-# Assignment #3 – The “File System 311” - FS3 Filesystem (Version 2.0) - CMPSC311 - Introduction to Systems Programming - Fall 2021 - Prof. McDaniel
-
-## **Due date: Friday, November 12 (11:59pm EDT)**
-
----
-## Prerequisite
-
-Refer to assignment #2.
-
----
-## Description
-
-Assignment #3 will continue our implementation of the device driver for the FS3 filesystem. Note that you will be required to use your code from the previous assignment (#2) as the starting place for the next assignment. 
-
-Unless stated otherwise, all the operations and specifics from assignment #2 apply to assignment #3. None of the APIs you used in the previous assignment have changed.
-
 ---
 ## System and Project Overview
 
@@ -77,10 +61,3 @@ You are to implement multiple cache strategies including the LRU above, a direct
   ```
 
 ---
-## How to turn in
-
-1. Submit on Canvas both the commit ID that should be graded, as well as your GitHub username. Otherwise you will receive a 0 for the assignment.
-2. Before submitting the commit ID, you can test that the TAs will get the correct version of your code by cloning again your GitHub repository in ANOTHER directory on your VM and check that everything compiles and runs as expected.
-
----
-**Note:** *Like all assignments in this class you are prohibited from copying any content from the Internet or discussing, sharing ideas, code, configuration, text or anything else or getting help from anyone in or outside of the class. Consulting online sources is acceptable, but under no circumstances should anything be copied. Failure to abide by this requirement will result dismissal from the class as described in our [course syllabus](https://psu.instructure.com/courses/2136848/assignments/syllabus).*
