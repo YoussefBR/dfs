@@ -1,4 +1,3 @@
----
 ## System and Project Overview
 
 There are two parts to this new assignment. These include:
@@ -26,11 +25,6 @@ You are to implement the cache in the file (`fs3_cache.c`) whose declarations ar
 - `int fs3_log_cache_metrics(void);` - This function will use the logMessage interface to log the performance of the cache, including hits, misses, attempts, and hit ratio (see sample output). Note that this will require you to create some global data structures to hold statistics that are continuously updated by the above functions.
  
 The key to this assignment is to design a data structure that holds the cache items and is resizable based on the parameter passed to the init cache function. We strongly suggest you work out the details of the cache and its function prior to implementing it.
-
----
-## Schreyer Honors College Option 
-
-You are to implement multiple cache strategies including the LRU above, a direct mapped (by sector), and a First-In First-Out (FIFO) version. You are to add a new command line parameter to main to set the policy as well and modify your code (not the simulator) to select the approach. Add a text file (`cache-performance.txt`) that discusses the different options and performance therein.
 
 ---
 ## How to compile and test
